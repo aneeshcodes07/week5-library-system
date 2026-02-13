@@ -59,3 +59,39 @@ Writing modular and maintainable code
 Library statistics
 ✔ Data saved in JSON files
 ✔ Menu-driven interface# week5-library-system
+
+Sample Menu
+================================
+    LIBRARY MANAGEMENT SYSTEM
+================================
+1. Add New Book
+2. Register New Member
+3. Borrow Book
+4. Return Book
+5. Search Books
+6. View All Books
+7. View All Members
+8. View Overdue Books
+9. Save & Exit
+0. Exit Without Saving
+
+Enter your choice:
+
+
+Sample Output
+Search Results for 'python':
+----------------------------------------
+1. Python Crash Course (ISBN: 9781593279288)
+   Author: Eric Matthes
+   Status: Available
+
+2. Automate the Boring Stuff with Python (ISBN: 9781593275990)
+   Author: Al Sweigart
+   Status: Borrowed by John Doe (Due: 2024-02-15)
+
+Library Statistics:
+- Total Books: 125
+- Available Books: 89
+- Total Members: 45
+- Books Borrowed: 36
+- Overdue Books: 3
